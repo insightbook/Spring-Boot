@@ -1,0 +1,43 @@
+logging:
+  config: classpath:logback-${spring.profiles.active}.xml
+
+spring:
+  datasource:
+    hikari:
+      connection-test-query: SELECT 1
+      allow-pool-suspension: true
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    generate-ddl: true
+    hibernate:
+      use-new-id-generator-mappings: false
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    
+---
+spring:
+  profiles: dev
+  datasource:
+    hikari:
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+      jdbc-url: jdbc:log4jdbc:mysql://localhost:3306/insight?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+      username: 아이디
+      password: 비밀번호
+  thymeleaf:
+    cache: false
+  resources:
+    cache:
+      period: 0
+
+---
+spring:
+  profiles: production
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/insight?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+      username: 아이디
+      password: 비밀번호

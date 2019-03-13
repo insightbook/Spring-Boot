@@ -1,0 +1,9 @@
+logging:
+  config: classpath:logback-${spring.profiles.active}.xml
+
+spring:
+  profiles: dev
+  cloud:
+    config:
+      uri : http://localhost:8888
+      name : cloud-config    

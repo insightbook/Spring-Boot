@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://아이디@bitbucket.org/아이디/cloud-config.git
+          username: 아이디
+          password: 비밀번호

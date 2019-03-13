@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://addio3305@bitbucket.org/addio3305/cloud-config.git
+          username: addio3305
+          password: As!1674612!!

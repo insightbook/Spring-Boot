@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>공통 에러 페이지</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}" href="../../css/style.css"></link>
+</head>
+<body>
+	<p>공통 에러 페이지</p>
+	<p th:text="${exception}"></p>
+	<ul th:each="list : ${exception.getStackTrace()}" th:text="${list.toString()}"></ul>
+</body>
+</html>

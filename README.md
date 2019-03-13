@@ -7,7 +7,7 @@
 ### 설정이 완료된 이클립스 파일
 https://insightbookblog.files.wordpress.com/2019/03/study.zip
 
-### 모든 예제 파일
+###  예제 파일
 2장: https://github.com/insightbook/Spring-Boot/tree/master/02%EC%9E%A5
 
 3장: https://github.com/insightbook/Spring-Boot/tree/master/03%EC%9E%A5

@@ -1,6 +1,6 @@
 # 스프링 부트 시작하기
 
-![Alt text](Springboot_Small.jpg)
+![Alt text](Springboot_Small_covered.jpg)
 
 # 예제 파일 다운로드
 

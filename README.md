@@ -5,7 +5,7 @@
 # 예제 파일 다운로드
 
 ### 설정이 완료된 이클립스 파일
-https://insightbookblog.files.wordpress.com/2019/03/study.zip
+https://drive.google.com/open?id=14myfVoPBjlCdeOGVl9Wfh20Ydwqq1n0X
 
 ### 장별 예제 파일
 2장: https://github.com/insightbook/Spring-Boot/tree/master/02%EC%9E%A5
@@ -32,7 +32,7 @@ https://insightbookblog.files.wordpress.com/2019/03/study.zip
 책과 같은 버전의 설치 파일은 다음 두 가지 방법 중 하나를 선택해 다운로드할 수 있습니다.
 
 ### 1. 책과 같은 버전의 설치 파일을 한꺼번에 다운로드하기
-<https://insightbookblog.files.wordpress.com/2019/03/install-files.zip>
+<https://drive.google.com/open?id=1zciI_BTg-PbhjFFVXNItxveaRyO8e_28>
 
 ### 2. 책과 같은 버전의 설치 파일을 직접 다운로드하기
 Eclipse: <https://www.eclipse.org/downloads/packages/release/2018-12/r>

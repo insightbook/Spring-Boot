@@ -47,3 +47,21 @@ Filezilla: https://filezilla-project.org/download.php?type=client
 
 Putty: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
+
+
+# 오류가 발생했을 때
+
+### 오류 발생 이유
+애플리케이션 오류가 나는 주요 이유는 다음 세 가지입니다.
+1. 오타
+2. 이클립스 버그
+3. Gradle import가 안 된 경우
+
+### 해결책
+각 요인별 해결책은 다음과 같습니다.
+1. 소스코드를 다운로드 받아 실행해 보세요.
+2. 이클립스를 껐다 켜보세요.
+   그래도 안 된다면, 이클립스 상단 메뉴 Project > Clean를 실행해 보세요.
+3. 프로젝트 우클릭 > Gradle > Refresh Gradle Project를 실행해 보세요.
+
+

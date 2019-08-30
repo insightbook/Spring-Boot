@@ -2,6 +2,7 @@
 
 ![Alt text](Springboot_Small_covered.jpg)
 
+
 # 예제 파일 다운로드
 
 ### 설정이 완료된 이클립스 파일
@@ -24,7 +25,7 @@ https://drive.google.com/open?id=14myfVoPBjlCdeOGVl9Wfh20Ydwqq1n0X
 
 10장: https://github.com/insightbook/Spring-Boot/tree/master/10%EC%9E%A5
 
-
+정오표: https://docs.google.com/spreadsheets/d/1zomWA52FH8a3rVl6AzVkQF0Hvq1y1UFU3jujSq0uZag/edit?usp=sharing
 
 
 

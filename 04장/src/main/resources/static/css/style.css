@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(http://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
 
-html{overflow:scorll;}
+html{overflow:scroll;}
 html, body, div, h1, h2, a, form, table, caption, thead, tbody, tr, th, td, submit {
 	margin:0; outline:0; border:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent;
 }
